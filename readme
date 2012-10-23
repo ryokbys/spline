@@ -1,0 +1,24 @@
+========================================================================
+Cubic Spline fitting code
+========================================================================
+2012-10-23  by R.K.
+========================================================================
+
+USAGE
+-----
+1. prepare data file 'dat.test' like following,
+   ------------------------------
+   4           ! num of data
+   0.0  0.0    ! x1, y1
+   1.0  2.0    ! x2, y2
+   2.0  1.0    ! ...
+   3.0  2.0    ! ...
+   ------------------------------
+
+2. Compile
+   $ ifort -o spline cubic_spline.F lasubs.F
+
+3. Run
+   $ ./spline < dat.test
+   Then you can get a list of fitted parameters.
+
