@@ -24,6 +24,7 @@
 
 
 ## Note
+
 * Only results is written in standard output as following
   ```
     0.0000000E+00  2.9333333E+00  0.0000000E+00 -9.3333333E-01
