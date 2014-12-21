@@ -38,8 +38,8 @@
     a0(2)  a1(2)  a2(2)  a3(2)
     a0(3)  a1(3)  a2(3)  a3(3)
   ```
-  The segment-1 which is in between data \\( (x1,y1) \\) and \\( (x2,y2) \\) is fitted to
-  $$ y= a0(1) +a1(1)*x +a2(1)*x**2 +a3(1)*x**3. $$
+  The segment-1 which is in between data (x1,y1) and (x2,y2) is fitted to
+    y= a0(1) +a1(1)*x +a2(1)*x**2 +a3(1)*x**3. 
   So the cubic polynomial form of segment-i is
-  $$  y= sum_{j=0,3} aj(i)*x^j. $$
+    y= sum_{j=0,3} aj(i)*x^j. 
 
